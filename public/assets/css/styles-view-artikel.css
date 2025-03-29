@@ -1,0 +1,38 @@
+.card-body {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.card-text {
+    margin-bottom: 0.5rem !important; /* Sesuaikan sesuai kebutuhan */
+}
+
+.artikel-img {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    transition: transform 0.3s ease-in-out !important;
+}
+
+.artikel-teks {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important; /* Batasi hanya 3 baris */
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-height: 4.5em !important; /* Menyesuaikan dengan 3 baris */
+}
+
+.artikel-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
+}
+
+.artikel-card:hover {
+    transform: translateY(-3px) !important; /* Mengangkat kartu sedikit */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important; /* Efek bayangan lembut */
+}
+
+.artikel-card:hover .artikel-img {
+    transform: scale(1.05) !important; /* Zoom in sedikit (5%) */
+}
