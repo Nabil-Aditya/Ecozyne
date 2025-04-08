@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Blog - FlexStart Bootstrap Template</title>
+  <title>Blog - Ecozyne</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
